@@ -1,0 +1,6 @@
+[submodule "rony-ecommerce-angular"]
+	path = rony-ecommerce-angular
+	url = https://github.com/RonyLiboni/rony-ecommerce-angular.git
+[submodule "rony-ecommerce"]
+	path = rony-ecommerce
+	url = https://github.com/RonyLiboni/rony-ecommerce.git
