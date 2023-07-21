@@ -22,7 +22,7 @@ services:
        - db_data:/var/lib/mysql
       
   app:
-    image: ronaldliboni/rony-commerce-java
+    image: ronaldliboni/rony-commerce-java:1
     container_name: rony-commerce-java
     depends_on:
       mysql-db:
@@ -47,7 +47,7 @@ services:
           memory: 512M
         
   angular-app:
-    image: ronaldliboni/rony-commerce-angular
+    image: ronaldliboni/rony-commerce-angular:latest
     container_name: rony-commerce-angular
     ports:
       - "80:80"
