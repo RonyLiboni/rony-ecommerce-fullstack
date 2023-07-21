@@ -22,6 +22,7 @@ Olá,
 Este é um projeto de estudo fullstack de um sistema de ecomerce.
   -  O frontend foi escrito em Typescript, HTML e CSS usando Angular;
   -  O backend foi escrito em Java usando o Spring Boot;
+    
 O jeito mais fácil de rodar esse projeto em sua máquina é utilizando o docker.
 Escrevi um documento docker compose que está neste repositório.
 Usando a linha de comando, entre na pasta raiz deste projeto e execute o comando
