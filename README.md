@@ -10,7 +10,7 @@ Using the command line enter in the folder of this project and execute the comma
 
 ### docker compose up -d
 
-it will take about 45s to the whole system be ready. 
+it can take some minutes to download the container images and do the deploy.
 It will deploy the backend app, the frontend app and a mysql container, that i added in case you didn't have it in your machine.
 
 The project is not finished yet! But you can see and test some functionalities.
@@ -29,7 +29,7 @@ Usando a linha de comando, entre na pasta raiz deste projeto e execute o comando
 
 ### docker compose up -d
 
-Leva em média 45s até o sistema inteiro estar pronto.
+Pode levar alguns minutos até baixar as imagens e começar a rodar o sistema.
 Ele subirá um container para o backend, um para o frontend e outro para o banco de dados que adicionei ao docker compose caso você não o tivesse em sua maquina.
  
 O projeto ainda não está finalizado! Porém você pode ver e testar algumas funcionalidades.
