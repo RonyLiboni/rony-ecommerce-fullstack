@@ -4,7 +4,7 @@ This is a fullstack project study of a ecommerce system.
 - Frontend was written in Typescript, HTML and CSS using Angular;
 - Backend was written in Java using Spring Boot;
 
-The easiest way to deploy the project in your machine is using docker.
+The easiest way to deploy the project in your machine is using docker. You can follows steps as in https://youtu.be/y6VTooNJ1fU . Or the below instructions.
 I've written a docker-compose file that is in this repository.
 Using the command line enter in the folder of this project and execute the command
 
@@ -24,6 +24,7 @@ Este é um projeto de estudo fullstack de um sistema de ecomerce.
   -  O backend foi escrito em Java usando o Spring Boot;
     
 O jeito mais fácil de rodar esse projeto em sua máquina é utilizando o docker.
+https://youtu.be/ybPAPt6dwfY nesse video tem os passos do deploy ou siga as instrucoes abaixo.
 Escrevi um documento docker compose que está neste repositório.
 Usando a linha de comando, entre na pasta raiz deste projeto e execute o comando
 
