@@ -22,7 +22,7 @@ services:
        - db_data:/var/lib/mysql
       
   app:
-    image: ronaldliboni/rony-commerce-java:1
+    image: ronaldliboni/rony-commerce-java:latest
     container_name: rony-commerce-java
     depends_on:
       rony-commerce-mysql-db:
