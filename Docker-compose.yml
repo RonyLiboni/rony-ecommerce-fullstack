@@ -46,7 +46,7 @@ services:
         limits:
           memory: 512M
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/api/departments"]
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/products?pageSize=1&sort=asc"]
       interval: 10s
       timeout: 5s
       retries: 10
